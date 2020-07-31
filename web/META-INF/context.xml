@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context reloadable="true">
+  <Resource
+          name="jdbc/sampleDS"
+          type="javax.sql.DataSource"
+          maxTotal="8"
+          maxIdle="2"
+          username="root"
+          maxWaitMillis="1000"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          password="mysql"
+          url="jdbc:mysql://localhost:3306/foodorder?serverTimezone=GMT%2B8&amp;useSSL=false&amp;characterEncoding=utf-8" />
+</Context>
+
+
